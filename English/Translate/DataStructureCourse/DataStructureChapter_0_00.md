@@ -14,10 +14,10 @@ tags:
   - english
   - translation
 aliases:
-  - "{{title}}"
+  - "{{Data Structure & Algorithm}}"
 ---
 
-# {{title}}
+# {{Data Structure & Algorithm}}
 
 ## 1. Metadata
     Title : One summary for all data structures and algorithms
@@ -30,18 +30,18 @@ aliases:
 
 ### Source
 
-''''''
+```
     All data structures are transformations of arrays (stored in order) and linked lists (stored by links).
     The key of data structures is traversal and access, which means basic actions like insert, delete, search, and update.
     All algorithms are brute-force.
     The key of brute-force is no missing cases and no repeated work. If you master the algorithm frameworks, you can avoid missing cases. If you use extra information well, you can avoid repeated work.
     If you truly understand these lines, you don’t need to read the 7000 words of this article. You don’t even need to read the many tutorials and do the exercises on this site.
     If you don’t understand, then I will use the following thousands of words, plus the many later articles and exercises, to explain these two summaries. When you study, keep thinking about these two lines. It will greatly improve your learning speed.
-''''''
+```
 
 ### Translate
 
-''''''
+```
     Self-Verson:
     所有数据结构都是数组（连续存储）和链表（链式储存）的变体。
     数据结构的核心是遍历和访问，这意味着最基础的行为，像插入，删除，查询和更新。
@@ -58,11 +58,11 @@ aliases:
     如果你真的融会贯通了这几句话，完全不需要读完这篇 7000 字的长文，甚至不需要去刷本站的各种教程和题目。
     如果你现在还似懂非懂，我会在接下来的千字长文以及后续的文章和习题中，为你详细拆解这两条核心总结。在后续的学习中，请时刻带着对这两句话的思考，它将成倍提升你的
     学习效率。
-''''''
+```
 
 ### Back-translate (Spoken-English)
 
-''''''
+```
     Self-Verson:
     All datastructures are based on arrays(stored by order) and links(stored by links).
     The core of datastructure is traversal and access such as insert, delete, search and update.
@@ -78,7 +78,7 @@ aliases:
     The core of brute-force is no missing cases and no repeated work. If you master algorithm frameworks, you can avoid missing cases. If you know how to use extra information, you can avoid doing repeated work.
     If you truly understand these summaries, there is no need to read this 7,000-word article. You don't even need to read many other articles or do exercises on this site.
     If you can't understand my summaries yet, I will teach you in the following thousands of words, articles, and exercises to explain these two core concepts. As you learn more and keep thinking about these summaries, they will help you learn faster and get better.
-''''''
+```
 
 ---
 
