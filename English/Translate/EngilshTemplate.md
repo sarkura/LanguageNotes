@@ -14,10 +14,10 @@ tags:
   - english
   - translation
 aliases:
-  - "{{title}}"
+  - "title"
 ---
 
-# {{title}}
+# title
 
 ## 1. Metadata
     Title :
@@ -31,27 +31,27 @@ aliases:
 
 ### Source
 
-''''''
+```
 
-''''''
+```
 
 ### Translate
 
-''''''
+```
     Self-Verson:
 
     AI-Verson:
 
-''''''
+```
 
 ### Back-translate (Spoken-English)
 
-''''''
+```
     Self-Verson:
 
     AI-Verson:
 
-''''''
+```
 
 ---
 
@@ -60,11 +60,21 @@ aliases:
 ### Sentence Patterns
 
 | Pattern | Example from Pattern | Note |
-    Pattern:
 
-    Example from Pattern:
+Pattern
+```
 
-    Note:
+```
+
+Example from Pattern
+```
+
+```
+
+Note
+```
+
+```
 
 | | | | |
 
@@ -72,6 +82,9 @@ aliases:
 
 | Word / Phrase | Meaning | Collocation | Example | Note |
 
-        
+```
+
+```  
+
 | | | | |
 ---

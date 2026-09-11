@@ -14,10 +14,10 @@ tags:
   - english
   - translation
 aliases:
-  - "{{Data Structure & Algorithm}}"
+  - "Data Structure & Algorithm"
 ---
 
-# {{Data Structure & Algorithm}}
+# Data Structure & Algorithm
 
 ## 1. Metadata
     Title : One summary for all data structures and algorithms
@@ -87,32 +87,42 @@ aliases:
 ### Sentence Patterns
 
 | Pattern | Example from Pattern | Note |
-    Pattern:
+
+Pattern
+```
     1.[A] are based on [B].
     2.The core of [A] is [B], such as [C], [D], and [E].
     3.The essence of [A] comes down to [B].
     4.If you [master/use A], you can avoid [doing B / C].
     5.If you truly understand [A], there is no need to [do B]. You don't even need to [do C].
     6.When you [do A] and keep [doing B], it will help you [do C / be better].
+```
 
-    Example from Pattern:
+Example from Pattern
+```
     1.All data structures are based on arrays and links.
     2.The core of algorithms is brute-force, such as Enumeration and traversal.
     3.The essence of Algorithms comes down to brute-force.
     4.If you master Algorithms, you can avoid doing repeat works.
     5.If you truly understand summaries, there is no need to read articles. You don't even need to do exercises.
     6.When you understand more clearly and keep learning, it will help you be better.
+```
 
-    Note:
+Note
+```
     Essence: The core of sth.
     Master: Good at some skills.
     Avoid: Avoid doing sth.
     Even: Don't even need to do sth.
+```
+
 | | | | |
 
 ### Vocabulary
 
 | Word / Phrase | Meaning | Collocation | Example | Note |
+
+```
     Essence:本质
     brute-force:暴力破解
     don't even need to:甚至没有必要
@@ -120,5 +130,6 @@ aliases:
     framework:框架
     traversal:遍历
     access:访问
+```
 | | | | |
 ---
