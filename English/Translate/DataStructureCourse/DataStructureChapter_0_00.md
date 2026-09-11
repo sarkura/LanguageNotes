@@ -116,7 +116,7 @@ Note
     Even: Don't even need to do sth.
 ```
 
-| | | | |
+---
 
 ### Vocabulary
 
@@ -131,5 +131,5 @@ Note
     traversal:遍历
     access:访问
 ```
-| | | | |
+
 ---
