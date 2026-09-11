@@ -1,7 +1,7 @@
 ---
 created: {{date:YYYY-MM-DD}}
 updated: {{date:YYYY-MM-DD}}
-type: translation
+type: Translation
 language: English
 level: 
 status:
@@ -11,10 +11,10 @@ source_type:
 topic:
 difficulty:
 tags:
-  - english
-  - translation
+  - English
+  - Translation
 aliases:
-  - "title"
+  - "Title"
 ---
 
 # title

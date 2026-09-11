@@ -1,7 +1,7 @@
 ---
 created: {{date:2026-9-11}}
 updated: {{date:2026-9-11}}
-type: translation
+type: Translation
 language: English
 level: B2
 status: Finished
@@ -11,8 +11,8 @@ source_type: Technology
 topic: DataStructure
 difficulty: Medium
 tags:
-  - english
-  - translation
+  - English
+  - Translation
 aliases:
   - "Data Structure & Algorithm"
 ---

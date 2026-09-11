@@ -14,7 +14,7 @@ tags:
   - 日本語
   - 翻訳
 aliases:
-  - "title"
+  - "Title"
 ---
 
 # title
