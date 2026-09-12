@@ -103,15 +103,26 @@ aliases:
     They just own different APIs.
     For example, queues and stacks can be implemented by any linked lists or arrays. If with arrays, you need to handle growing space and shrinking space. 
     If with linked lists, you don't have this problem, but need more space to save the pointers.
-    A graph has two common storage ways. The first is an adjacency list. The second is an adjacency matrix. An adjacency matrix can improve to check link faster than an adjacency list, and you can use matrix to solve many questions. But if a graph is sparse, it wastes a lot of memories. An adjacency list can save memories, but many operations will be slower.
-    A hash table uses hash function to map keys in large array. To hash collisions, decoupled chain structure needs link features. It is simple but needs additional space to save pointers.
+    A graph has two common storage ways. The first is an adjacency list. The second is an adjacency matrix. 
+    An adjacency matrix can improve to check link faster than an adjacency list, and you can use matrix to solve many questions. 
+    But if a graph is sparse, it wastes a lot of memories. An adjacency list can save memories, but many operations will be slower.
+    A hash table uses hash function to map keys in large array. To hash collisions, decoupled chain structure needs link features. 
+    It is simple but needs additional space to save pointers.
     Linear probing way needs array with continues address. Here is no need of pointers, but in operations will be more complex.
-    For trees: If you use array to stroe a tree, it becomes a heap, because of a heap is a complete binary tree. Using an array, you don't need to store other pointers and operations will be simpler. A classic example is the binary heap. If with linked lists, it's ordinary tree. So it isn't a complete binary tree, it is not suitable to use an array. Basing on link trees, it likes binary search tree, AVL tree, red-black tree, segment tree, B-tree or other tree, so for different problems are not same.
+    For trees: If you use array to stroe a tree, it becomes a heap, because of a heap is a complete binary tree. Using an array, 
+    you don't need to store other pointers and operations will be simpler. A classic example is the binary heap. If with linked lists, 
+    it's ordinary tree. So it isn't a complete binary tree, it is not suitable to use an array. Basing on link trees, 
+    it likes binary search tree, AVL tree, red-black tree, segment tree, B-tree or other tree, so for different problems are not same.
     So there are many structures, even you can invent a new structure. In stored level, it is only arrays or linked lists.
     Their advantages and disadvantages are:
-    Arrays can be stored in compact, contiguous memory space. You can random access and quickly by index, and it also saves space. But with contiguous memory space, the memory must be allocated on one piece. So if you want to grow the array, you must allocate another bigger contiguous memory space and copy all elements to new space which is O(N).
-    On the other hand, if you insert or delete an element in middle, you also need to move all  behind elements which is O(N). linked lists don't store contiguous elements. Every node points to the next node, so they don't have this problem. If you know previous node and next node, you can insert or delete node which is 
-    O(1). Because memories is not contiguous, you can't calculate previous node and next node address, and random accessing is also not allowwed. Every node only need to save previous node and next node that helps taking more space.
+    Arrays can be stored in compact, contiguous memory space. You can random access and quickly by index, and it also saves space. 
+    But with contiguous memory space, the memory must be allocated on one piece. So if you want to grow the array, 
+    you must allocate another bigger contiguous memory space and copy all elements to new space which is O(N).
+    On the other hand, if you insert or delete an element in middle, you also need to move all  behind elements which is O(N). 
+    linked lists don't store contiguous elements. Every node points to the next node, so they don't have this problem. 
+    If you know previous node and next node, you can insert or delete node which is 
+    O(1). Because memories is not contiguous, you can't calculate previous node and next node address, and random accessing is also not allowwed. 
+    Every node only need to save previous node and next node that helps taking more space.
 
     AI-Verson:
     There are only two ways to store data structures: arrays (stored in order) and linked lists (stored by links).How can we understand this? 
