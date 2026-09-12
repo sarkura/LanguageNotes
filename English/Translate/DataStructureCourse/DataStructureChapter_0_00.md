@@ -123,7 +123,7 @@ Note
 | Word / Phrase | Meaning | Collocation | Example | Note |
 
 ```
-    Essence:本质
+    essence:本质
     brute-force:暴力破解
     don't even need to:甚至没有必要
     repeat works:重复工作
