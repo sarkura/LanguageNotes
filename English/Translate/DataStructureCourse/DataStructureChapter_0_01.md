@@ -33,17 +33,31 @@ aliases:
 ```
     There are only two ways to store data structures: arrays (stored in order) and linked lists (stored by links).
     How to understand this? Aren’t there hash tables, stacks, queues, heaps, trees, graphs, and many other data structures?
-    When we analyze a problem, we should think in a recursive way: top-down, from abstract to concrete. If you list all those structures first, they are higher-level designs. Arrays and linked lists are the base. All those different structures are special operations on arrays or linked lists. They just have different APIs.
-    For example, queues and stacks can be implemented with either a linked list or an array. With an array, you need to handle growing and shrinking. With a linked list, you don’t have this problem, but you need more memory for node pointers.
-    A graph has two common storage ways. An adjacency list is a linked list. An adjacency matrix is a 2D array. An adjacency matrix is fast for checking connections, and you can use matrix operations to solve some problems. But if the graph is sparse, it wastes a lot of space. An adjacency list saves space, but many operations are slower than an adjacency matrix.
+    When we analyze a problem, we should think in a recursive way: top-down, from abstract to concrete. If you list all those structures first, 
+    they are higher-level designs. Arrays and linked lists are the base. All those different structures are special operations on arrays or linked lists. 
+    They just have different APIs.
+    For example, queues and stacks can be implemented with either a linked list or an array. With an array, you need to handle growing and shrinking. 
+    With a linked list, you don’t have this problem, but you need more memory for node pointers.
+    A graph has two common storage ways. An adjacency list is a linked list. An adjacency matrix is a 2D array. 
+    An adjacency matrix is fast for checking connections, and you can use matrix operations to solve some problems. 
+    But if the graph is sparse, it wastes a lot of space. An adjacency list saves space, but many operations are slower than an adjacency matrix.
     A hash table uses a hash function to map keys into a large array. 
     For hash collisions, separate chaining needs linked list features. It is simple, but needs extra space for pointers. 
     linear probing needs array features for continuous addressing. It does not need pointer space, but the operations are a bit more complex.
-    For trees: if you use an array, it becomes a “heap”, because a heap is a complete binary tree. With an array, you don’t need node pointers, and operations are simpler. A classic example is the binary heap. If you use a linked list, it is the common “tree” form. Because it may not be a complete binary tree, it is not good to store it in an array. Based on this linked-list “tree”, people created many designs, like binary search tree, AVL tree, red-black tree, segment tree, B-tree, and so on, for different problems.
+    For trees: if you use an array, it becomes a “heap”, because a heap is a complete binary tree. With an array, you don’t need node pointers, 
+    and operations are simpler. A classic example is the binary heap. If you use a linked list, it is the common “tree” form. 
+    Because it may not be a complete binary tree, it is not good to store it in an array. Based on this linked-list “tree”, 
+    people created many designs, like binary search tree, AVL tree, red-black tree, segment tree, B-tree, and so on, for different problems.
     So there are many data structures. You can even invent your own. But at the storage level, it is still just arrays or linked lists. 
     Their pros and cons are:
-    Array stores data in a tight, continuous block. You can do random access and quickly find an element by index, and it saves space. But because it must be continuous, memory must be allocated in one piece. So if you need to grow the array, you must allocate a bigger block and copy all data, which is O(N). Also, if you insert or delete in the middle, you must move all later elements to keep it continuous, which is also O(N).
-    Linked list does not store elements continuously. Each node uses pointers to the next node, so there is no “grow array” problem. If you know the previous and next node, you can delete or insert by changing pointers, which is O(1). But because memory is not continuous, you cannot compute an element’s address from an index, so you cannot do random access. Also, each element needs pointers (to previous/next), so it uses more space.
+    Array stores data in a tight, continuous block. You can do random access and quickly find an element by index, and it saves space. 
+    But because it must be continuous, memory must be allocated in one piece. So if you need to grow the array,
+     you must allocate a bigger block and copy all data, which is O(N). Also, if you insert or delete in the middle, 
+     you must move all later elements to keep it continuous, which is also O(N).
+    Linked list does not store elements continuously. Each node uses pointers to the next node, so there is no “grow array” problem. 
+    If you know the previous and next node, you can delete or insert by changing pointers, which is O(1). 
+    But because memory is not continuous, you cannot compute an element’s address from an index, so you cannot do random access. 
+    Also, each element needs pointers (to previous/next), so it uses more space.
 ```
 
 ### Translate
